@@ -39,7 +39,7 @@ h3 {
     font-size: 24px;
 }
 
-grid-container {
+.grid-container {
     display: grid;
     grid-template-columns: 1.5fr 5fr;
 }
@@ -57,7 +57,7 @@ nav li {
     list-style-type: none;
 }
 
-a {
+nav a {
     display: block-level;
     background-color: #8c1d40;
     color: #fff;
@@ -71,3 +71,52 @@ a {
     font-weight: bold;
     font-size: 20px;
 }
+
+nav a:hover {
+    Color: #8c1d40;
+    Background-color: #ffff; 
+    }
+
+main {
+    background-color: #fff;
+    padding: 24px;
+}
+
+main a {
+    background-color: #8c1d40;
+    font-weight: bold;
+}
+
+main a:hover {
+    Color: #8c1d40;
+    Background-color: #ffff;
+}
+
+p q {
+    color: #444;
+}
+
+q {
+    font-style: italic;
+}
+
+.year {
+    background-color: #ffc627;
+    color: #555;
+    padding: 4px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer h2 {
+    font-size: 24px;
+    margin: 8px;
+}
+
+address {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
