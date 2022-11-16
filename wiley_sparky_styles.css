@@ -6,16 +6,16 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     background-color: #ccc;
     color: #222;
 }
 
 header, footer, div {
     width: 1000px;
-    margin-top: zero;
-    margin-bottom: zero;
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -58,7 +58,7 @@ nav li {
 }
 
 nav a {
-    display: block-level;
+    display: block;
     background-color: #8c1d40;
     color: #fff;
     padding: 8px;
@@ -119,4 +119,16 @@ address {
     font-size: 16px;
 }
 
+footer a {
+    color: #fff;
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: normal;
+}
 
+footer a:hover {
+    color: #ffc627;
+}
