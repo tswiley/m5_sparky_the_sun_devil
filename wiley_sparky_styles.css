@@ -6,21 +6,18 @@
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     background-color: #ccc;
     color: #222;
 }
 
-header, footer, div {
+header {
     width: 1000px;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-}
-
-header, footer {
     background-color: #8c1d40;
     color: #fff;
     padding: 20px;
@@ -50,14 +47,11 @@ nav {
 }
 
 nav ul {
-    list-style-position: inside;
-    padding-left: 0;
+    height: 750px;
 }
 
 nav li {
     list-style-type: none;
-    display: inline;
-    width: 150px;
 }
 
 nav a {
@@ -73,6 +67,7 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
+    width: 100%;
 }
 
 nav a:hover {
@@ -82,7 +77,10 @@ nav a:hover {
 
 main {
     background-color: #fff;
-    padding: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 main a {
@@ -93,8 +91,19 @@ main a {
 main a:hover {
     Color: #8c1d40;
     Background-color: #ffff;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
+div {
+    width: 1000px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
 p q {
     color: #444;
 }
@@ -111,6 +120,17 @@ q {
     font-weight: bold;
 }
 
+footer {
+    width: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8c1d40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
 footer h2 {
     font-size: 24px;
     margin: 8px;
